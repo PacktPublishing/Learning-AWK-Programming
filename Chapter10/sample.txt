@@ -1,0 +1,7 @@
+	foo baz ruby
+baz foo foo foo		
+foo gold\
+silver foo 
+silver foo 
+baz foo foo foo		
+	foo baz ruby
