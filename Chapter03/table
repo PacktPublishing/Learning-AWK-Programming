@@ -1,0 +1,42 @@
+FS		default value is set as whitespaces ( single and or sequences of space and tab )
+FS=""		split each character into a single field
+FS="\t"		input field is set as single tab
+FS="\n"		input field is set as single newline
+FS="[:,;]"	input field are separated by multiple field separators
+FS="ABC"	input field are separated by string ABC
+
+
+OFS		default value is single space
+OFS=""		output fields are not separated at all
+OFS="\n"	output fields are separated by single line
+OFS="\t"	output fields are separated by single tab
+OFS="ABC"	output fields are separated by string ABC
+
+RS		default value is single newline
+RS=""		record are separated on empty line
+RS="\t"		record are separated by single tab and not newline
+RS="\n" 	record are separated by single line
+RS="."  	record are separated by single dot
+RS="\0"		Entire file treated as a single record
+
+ORS		default value is single newline
+ORS=""		output records are not separated at all
+ORS="\t"	output records are tab separated
+ORS="\n\n"	output records are separated by 2 newlines
+ORS="\n**\n"	output records are separated by newline followed by string and again newline
+
+
+NR		default value is number of current input record
+$NR		print the fields in file corresponding to current input record
+NR==1		print the record number one only
+NR==2,NR==4	print the record number two through record number four
+NR==5||NR==8	print the record number 5 and record number 8 only
+
+NF		default value is number of fields in current input record
+$NF		print the last fields of current input record
+$(NF-1)		print the second last field of current input record
+
+
+
+
+
