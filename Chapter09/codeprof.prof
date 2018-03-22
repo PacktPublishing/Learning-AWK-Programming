@@ -1,0 +1,71 @@
+	# gawk profile, created Fri Feb  9 11:01:41 2018
+
+	# BEGIN rule(s)
+
+	BEGIN {
+     1  	print "First BEGIN statement"
+     1  	print "====================="
+	}
+
+	BEGIN {
+     1  	print "Second BEGIN statement"
+     1  	print "====================="
+     1  	all()
+	}
+
+	# Rule(s)
+
+    12  /maruti/ { # 4
+     4  	print $0
+	}
+
+	# END rule(s)
+
+	END {
+     1  	print "First END statement "
+     1  	print "====================="
+	}
+
+	END {
+     1  	print "Second END statement"
+     1  	print "====================="
+	}
+
+
+	# Functions, listed alphabetically
+
+     1  function add(num1, num2)
+	{
+     1  	result = num1 + num2
+     1  	printf "Addition of %d + %d : %d\n", num1, num2, result
+	}
+
+     1  function all()
+	{
+     1  	add(30, 10)
+     1  	mul(5, 6)
+     1  	z_array()
+	}
+
+     1  function mul(num1, num2)
+	{
+     1  	result = num1 * num2
+     1  	printf "Multiplication of %d * %d : %d\n", num1, num2, result
+	}
+
+     1  function z_array()
+	{
+     1  	arr[30] = "volvo"
+     1  	arr[10] = "bmw"
+     1  	arr[20] = "audi"
+     1  	arr[50] = "toyota"
+     1  	arr["car"] = "ferrari"
+     1  	n = asort(arr)
+     1  	print "Array begins...!"
+     1  	print "====================="
+     5  	for (v in arr) {
+     5  		print v, arr[v]
+		}
+     1  	print "Array Ends...!"
+     1  	print "====================="
+	}
