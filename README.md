@@ -31,5 +31,4 @@ A basic understanding of GNU/Linux operating systems and familiarity with any te
 
 * [Learning Linux Shell Scripting - Second Edition](https://www.packtpub.com/networking-and-servers/learning-linux-shell-scripting-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788993197)
 
-### Suggestions and Feedback
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
+
