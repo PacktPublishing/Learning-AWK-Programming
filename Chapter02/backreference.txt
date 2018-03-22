@@ -1,0 +1,6 @@
+cat
+first example of backreferencing
+catcat
+example of palindrome
+xabax
+

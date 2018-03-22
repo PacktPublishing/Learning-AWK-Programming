@@ -1,0 +1,13 @@
+start
+bigstarting
+starting
+start end
+white space example
+e d
+end
+e_d
+e1d
+e;d
+eNd
+white space example with tab
+e	d
