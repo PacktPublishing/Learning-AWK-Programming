@@ -1,0 +1,5 @@
+Jack    9857532312  jack@gmail.com  hr  2000    5
+Jane    9837432312  jane@gmail.com  hr  1800    5
+Eva     8827232115  eva@gmail.com   lgs 2100    6
+amit    9911887766  amit@yahoo.com  lgs 2350    6
+Julie   8826234556  julie@yahoo.com hr  2500    5
